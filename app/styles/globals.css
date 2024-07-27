@@ -1,0 +1,19 @@
+/* Custom font definitions */
+@font-face {
+    font-family: 'Lekton';
+    src: url('../../public/fonts/Lekton/Lekton-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../../public/fonts/League_Spartan/static/LeagueSpartan-Light.ttf') format('truetype');
+    font-weight: 700;
+    font-style: light;
+}
+  
+  /* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
