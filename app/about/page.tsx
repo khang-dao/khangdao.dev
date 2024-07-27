@@ -16,7 +16,7 @@ export default function ProjectsPage() {
           <p className="font-lekton">
             Hello again! Thanks for scrolling this far!! 🤗 I graduated from Monash University
             with a double bachelor of computer science 🖥️ and finance 💸. I've also completed
-            a full-stack bootcamp with a great open-source community (you might’ve heard of it)
+            a full-stack bootcamp with a great open-source community (you might've heard of it)
             The Odin Project.
           </p>
           <p className="font-lekton font-bold">
