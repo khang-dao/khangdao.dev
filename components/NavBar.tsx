@@ -4,14 +4,14 @@ import Link from "next/link";
 
 const NavBar: React.FC = () => {
   return (
-    <nav className='w-9/12 flex border justify-between items-center border-emerald-500'>
-      <HomeIcon className="border-emerald-700 border" />
-      <Link className="border-emerald-700 border" href="/">Home</Link>
-      <Link className="border-emerald-700 border" href="/projects">Projects</Link>
-      <Link className="border-emerald-700 border" href="/about">About</Link>
-      <Link className="border-emerald-700 border" href="/toolkit">Toolkit</Link>
-      <Link className="border-emerald-700 border" href="/contact">Contact</Link>
-      <MoonIcon className="border-emerald-700 border" />
+    <nav className='flex p-4 rounded-b-3xl gap-10 border justify-between items-center bg-[#BCDAFF]'>
+      <HomeIcon />
+      <Link href="/">Home</Link>
+      <Link href="/projects">Projects</Link>
+      <Link href="/about">About</Link>
+      <Link href="/toolkit">Toolkit</Link>
+      <Link href="/contact">Contact</Link>
+      <MoonIcon />
     </nav>
   );
 };
