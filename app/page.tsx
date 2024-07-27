@@ -2,10 +2,9 @@ import NavBar from "../components/NavBar";
 import { GiHamburgerMenu as HamburgerMenuIcon } from "react-icons/gi";
 import { FaCircle as CircleIcon, FaAngleDown as DownArrowIcon } from "react-icons/fa";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="flex flex-col items-center min-h-screen">
-      
+    <main className="flex flex-col items-center min-h-screen">   
       <header className="flex flex-1 items-start justify-between w-full px-4">
         <HamburgerMenuIcon className="mt-3 cursor-pointer" color="#469AFF" size={25} />
         <div className="flex-grow flex justify-center">
