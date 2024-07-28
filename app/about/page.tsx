@@ -11,6 +11,7 @@ export default function ProjectsPage() {
 
 
       <PageTitle>About Me 🐛</PageTitle>
+      
       <div className="flex mx-20 gap-16">
         <div className="flex flex-col gap-10">
           <p className="font-lekton">
