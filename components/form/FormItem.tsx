@@ -1,24 +1,24 @@
-function FormItem({ children, id, name, type }) {
+function FormItem({ children, id, name, type, className }) {
   return (
     <div>
-      {
-        type === "textarea"
-        ? <textarea
-            id={id}
-            name={name}
-            placeholder={children}
-            className="resize-none p-2 font-lekton text-[#ACACAC] border border-[#DAEBFF] border-[3px] rounded-lg"
-            required
-          />
-        : <input
-            type={type}
-            id={id}
-            name={name}
-            placeholder={children}
-            className="p-2 font-lekton text-[#ACACAC] border border-[#DAEBFF] border-[3px] rounded-lg"
-            required
-          />
-      }
+      {type === "textarea" ? (
+        <textarea
+          id={id}
+          name={name}
+          placeholder={children}
+          className={`${className} resize-none rounded-lg border border-[3px] border-[#DAEBFF] p-2 font-lekton text-[#ACACAC] w-full`}
+          required
+        />
+      ) : (
+        <input
+          type={type}
+          id={id}
+          name={name}
+          placeholder={children}
+          className={`${className} rounded-lg border border-[3px] border-[#DAEBFF] p-2 font-lekton text-[#ACACAC] w-full`}
+          required
+        />
+      )}
     </div>
   );
 }

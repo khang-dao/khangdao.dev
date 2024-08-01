@@ -1,19 +1,16 @@
-import { BiSolidHome as HomeIcon} from "react-icons/bi";
-import { IoMdMoon as MoonIcon} from "react-icons/io";
 import Link from "next/link";
+import { BiSolidHome as HomeIcon } from "react-icons/bi";
+import { IoMdMoon as MoonIcon } from "react-icons/io";
 
-const NavBar: React.FC = () => {
+export default function NavBar() {
   return (
-    <nav className='flex p-4 rounded-b-3xl gap-10 border justify-between items-center bg-[#BCDAFF]'>
+    <nav className="flex items-center justify-between gap-10 rounded-b-3xl border bg-[#BCDAFF] p-4">
       <HomeIcon />
       <Link href="/">Home</Link>
-      <Link href="/projects">Projects</Link>
-      <Link href="/about">About</Link>
-      <Link href="/toolkit">Toolkit</Link>
-      <Link href="/contact">Contact</Link>
+      <Link href="/#projects">Projects</Link>
+      <Link href="/#about">About</Link>
+      <Link href="/#contact">Contact</Link>
       <MoonIcon />
     </nav>
   );
-};
-
-export default NavBar;
+}
