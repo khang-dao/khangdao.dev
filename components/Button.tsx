@@ -2,7 +2,10 @@
 
 function Button({ children }) {
   return (
-    <button className="font-lekton text-white bg-[#4C9EFF] rounded-md px-5 py-2.5 cursor-default" onClick={() => console.log('Button clicked!')}>
+    <button
+      className="cursor-default rounded-md bg-[#4C9EFF] px-5 py-2.5 font-lekton text-white"
+      onClick={() => console.log("Button clicked!")}
+    >
       {children}
     </button>
   );

@@ -1,9 +1,10 @@
-
 const PageTitle: React.FC<{ children: string }> = ({ children }) => {
   return (
-    <div className="relative inline-block">
-      <div className="absolute inset-0 top-4 left-2 bg-[#E8F3FF] z-0 text-box rounded-md blur-[2px]"></div>
-      <span className='relative z-10 text-4xl font-lekton font-bold'>{children}</span>
+    <div className="relative mb-10 inline-block">
+      <div className="text-box absolute inset-0 left-2 top-4 z-0 rounded-md bg-[#cfe6ff] blur-[2px]"></div>
+      <span className="relative z-10 font-lekton text-4xl font-bold">
+        {children}
+      </span>
     </div>
   );
 };
