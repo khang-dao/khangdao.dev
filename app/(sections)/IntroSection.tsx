@@ -3,8 +3,8 @@ import { FaAngleDown as DownArrowIcon } from "react-icons/fa";
 
 export default function IntroSection() {
   return (
-    <section className="flex h-screen w-[65vw] flex-col items-center justify-between">
-      <div className="flex grow items-center justify-between">
+    <section className="flex h-screen w-full flex-col items-center justify-between">
+      <div className="flex grow items-center justify-between w-11/12 max-w-5xl mx-auto">
         <div className="flex w-6/12 flex-col">
           <div className="relative inline-block">
             <div className="text-box absolute inset-0 left-2 top-4 z-0 rounded-md bg-[#cfe6ff] blur-[2px]"></div>
@@ -18,13 +18,14 @@ export default function IntroSection() {
             passion for creation, automation, and cloud technologies ☁️
           </p>
         </div>
-        <div className="relative">
+        <div className="relative w-64 h-64">
           <Image
             src="/images/blue_dragon.jpg"
             alt="Blue Dragon"
-            width={250}
-            height={250}
-            className="rounded-full" // Apply rounded-full class to make the image circular
+            layout="fill"
+            objectFit="cover"
+            className="rounded-full"
+            quality={100}
           />
         </div>
       </div>
