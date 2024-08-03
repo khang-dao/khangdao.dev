@@ -1,6 +1,9 @@
 name: Deploy to GitHub Pages
 
 on:
+  push:
+    branches:
+      - setup/deploy-github-pages-workflow
   pull_request:
     branches:
       - main
@@ -17,7 +20,7 @@ jobs:
         run: npm install
 
       - name: Build and Export
-        run: npm run build && npm run export
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
