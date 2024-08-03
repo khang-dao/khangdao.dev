@@ -1,5 +1,4 @@
 import FormItem from "@components/form/FormItem";
-import React from "react";
 
 interface ContactFormProps {
   children?: React.ReactNode;
@@ -9,7 +8,7 @@ interface ContactFormProps {
   type?: string;
 }
 
-const ContactForm: React.FC<ContactFormProps> = ({ className }) => {
+const ContactForm: React.FC<ContactFormProps> = ({ className }: ContactFormProps) => {
   return (
     <form className={`${className} flex flex-col gap-3`}>
       <FormItem className="grow-0" id="name" name="name" type="text">

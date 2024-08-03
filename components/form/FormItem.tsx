@@ -6,7 +6,7 @@ function FormItem({ children, id, name, type, className }: { children: React.Rea
           id={id}
           name={name}
           placeholder={children as string}
-          className={`${className} resize-none rounded-lg border border-[3px] border-[#DAEBFF] p-2 font-lekton text-[#ACACAC] w-full`}
+          className={`${className} resize-none rounded-lg border-[3px] border-[#DAEBFF] p-2 font-lekton text-[#ACACAC] w-full`}
           required
         />
       ) : (
@@ -15,7 +15,7 @@ function FormItem({ children, id, name, type, className }: { children: React.Rea
           id={id}
           name={name}
           placeholder={children as string}
-          className={`${className} rounded-lg border border-[3px] border-[#DAEBFF] p-2 font-lekton text-[#ACACAC] w-full`}
+          className={`${className} rounded-lg border-[3px] border-[#DAEBFF] p-2 font-lekton text-[#ACACAC] w-full`}
           required
         />
       )}

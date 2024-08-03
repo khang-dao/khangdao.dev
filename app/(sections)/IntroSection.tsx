@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaAngleDown as DownArrowIcon } from "react-icons/fa";
+import { FaAngleDown as DownArrowIcon } from "@icons/fa";
 
 export default function IntroSection() {
   return (
