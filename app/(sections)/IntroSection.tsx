@@ -19,14 +19,14 @@ export default function IntroSection() {
           </p>
         </div>
         <div className="relative h-64 w-64">
-          <Image
+          {/* <Image
             src="/images/blue_dragon.jpg"
             alt="Blue Dragon"
             layout="fill"
             objectFit="cover"
             className="rounded-full"
             quality={100}
-          />
+          /> */}
         </div>
       </div>
 
