@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { FaAngleDown as DownArrowIcon } from "@icons/fa";
+import Image from "next/image";
 
 export default function IntroSection() {
   return (
@@ -23,7 +23,7 @@ export default function IntroSection() {
             src="images/blue_dragon.jpg"
             alt="Blue Dragon"
             fill
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: "cover" }}
             className="rounded-full"
             quality={100}
           />
