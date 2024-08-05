@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaAngleDown as DownArrowIcon } from "react-icons/fa";
+import { FaAngleDown as DownArrowIcon } from "@icons/fa";
 
 export default function IntroSection() {
   return (
@@ -9,7 +9,7 @@ export default function IntroSection() {
           <div className="relative">
             <div className="absolute inset-0 left-2 right-44 top-4 z-0 rounded-md bg-[#cfe6ff] blur-[2px]"></div>
             <span className="relative z-10 font-spartan text-5xl font-bold">
-              Hi, I'm Khang
+              Hi, I&#39;m Khang
             </span>
           </div>
 
@@ -20,10 +20,10 @@ export default function IntroSection() {
         </div>
         <div className="relative h-64 w-64">
           <Image
-            src="/images/blue_dragon.jpg"
+            src="images/blue_dragon.jpg"
             alt="Blue Dragon"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             className="rounded-full"
             quality={100}
           />
