@@ -1,4 +1,4 @@
-function FormItem({
+export default function FormItem({
   children,
   id,
   name,
@@ -34,5 +34,3 @@ function FormItem({
     </div>
   );
 }
-
-export default FormItem;

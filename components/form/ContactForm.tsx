@@ -8,9 +8,9 @@ interface ContactFormProps {
   type?: string;
 }
 
-const ContactForm: React.FC<ContactFormProps> = ({
+export default function ContactForm({
   className,
-}: ContactFormProps) => {
+}: ContactFormProps): JSX.Element {
   return (
     <form className={`${className} flex flex-col gap-3`}>
       <FormItem className="grow-0" id="name" name="name" type="text">
@@ -30,6 +30,4 @@ const ContactForm: React.FC<ContactFormProps> = ({
       </button>
     </form>
   );
-};
-
-export default ContactForm;
+}
