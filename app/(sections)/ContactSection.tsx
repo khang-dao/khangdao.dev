@@ -1,6 +1,5 @@
 import ContactForm from "../../components/form/ContactForm";
 import PageTitle from "@components/PageTitle";
-import FormItem from "@components/form/FormItem";
 import { CiLinkedin as LinkedinIcon } from "@icons/ci";
 import { FaGithub as GithubIcon } from "@icons/fa";
 import { TiDocumentText as DocumentIcon } from "@icons/ti";
