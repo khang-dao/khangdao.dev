@@ -9,7 +9,7 @@ export default function IntroSection() {
           <div className="relative">
             <div className="absolute inset-0 left-2 right-44 top-4 z-0 rounded-md bg-[#cfe6ff] blur-[2px]"></div>
             <span className="relative z-10 font-spartan text-5xl font-bold">
-              Hi, I&#39;m Khang Dao
+              Hi, I&#39;m Khang
             </span>
           </div>
 
