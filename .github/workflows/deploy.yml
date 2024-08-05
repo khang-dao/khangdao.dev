@@ -3,9 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - setup/deploy-github-pages-workflow
-  pull_request:
-    branches:
       - main
 
   workflow_dispatch:
