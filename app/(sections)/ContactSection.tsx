@@ -12,8 +12,7 @@ export default function ContactSection() {
           <PageTitle>Let&#39;s Connect 📱</PageTitle>
           <div className="flex gap-16">
             <p className="font-spartan font-bold">
-              I&#39;m always open to connecting and discussing innovative
-              solutions. Feel free to reach out for a chat!
+              I&#39;m always open to connecting and discussing innovative solutions. Feel free to reach out for a chat!
             </p>
           </div>
           <div className="flex gap-10">
