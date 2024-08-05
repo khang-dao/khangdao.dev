@@ -2,10 +2,10 @@ module.exports = {
   root: true,
   env: { browser: true, es2020: true },
   extends: [
-    // 'plugin:react/recommended',
-    // 'plugin:react/jsx-runtime',
-    'eslint:recommended',
-    'plugin:next/recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@next/next/recommended'
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
@@ -18,4 +18,12 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        'react/prop-types': 'off',
+      },
+    },
+  ],
 };

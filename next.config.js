@@ -1,15 +1,7 @@
-const isGithubActions = process.env.GITHUB_ACTIONS || false;
-
-let assetPrefix = '';
-let basePath = '';
-
-if (isGithubActions) {
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '');
-  assetPrefix = `/${repo}/`;
-  basePath = `/${repo}`;
-}
-
-export default {
-  assetPrefix,
-  basePath,
+const nextConfig = {
+  output: 'export',
+  typescript: { ignoreBuildErrors: true },
+  images: { unoptimized: true }
 };
+
+export default nextConfig;
