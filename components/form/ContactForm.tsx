@@ -2,9 +2,6 @@ import FormItem from "@components/form/FormItem";
 
 interface ContactFormProps {
   className?: string;
-  id?: string;
-  name?: string;
-  type?: string;
 }
 
 export default function ContactForm({ className }: ContactFormProps): JSX.Element {

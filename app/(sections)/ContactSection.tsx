@@ -21,7 +21,7 @@ export default function ContactSection() {
             <GithubIcon size={30} />
           </div>
         </div>
-        <ContactForm className="flex-1 basis-3/5" id="name" name="name" />
+        <ContactForm className="flex-1 basis-3/5" />
       </div>
     </section>
   );
