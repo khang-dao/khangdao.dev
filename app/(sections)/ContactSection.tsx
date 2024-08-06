@@ -9,7 +9,7 @@ export default function ContactSection() {
     <section id="contact" className="my-16 w-[65vw]">
       <div className="flex gap-24">
         <div className="flex flex-1 basis-2/5 flex-col gap-10">
-          <div className="max-w-3xl ">
+          <div className="max-w-3xl">
             <PageTitle>Let&#39;s Connect 📱</PageTitle>
           </div>
           <div className="flex gap-16">
