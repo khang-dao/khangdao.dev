@@ -10,7 +10,7 @@ export default function HomePage() {
     <>
       <Header />
 
-      <main className="m-5 flex flex-col items-center rounded-sm bg-[#f2f9ff]">
+      <main className="flex flex-col items-center bg-[#f2f9ff]">
         <IntroSection />
         <ProjectsSection />
         <AboutSection />
