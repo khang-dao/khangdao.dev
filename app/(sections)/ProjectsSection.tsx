@@ -5,7 +5,7 @@ export default function ProjectsSection() {
     <section id="projects" className="my-16 w-[65vw]">
       <PageTitle>Projects 🚀</PageTitle>
 
-      <p className="font bold font-spartan text-[#469AFF]">Hover to see details!</p>
+      <p className="font bold font-spartan text-blue-primary">Hover to see details!</p>
 
       <div className="grid grid-cols-5 gap-5">
         <div className="col-span-3 flex justify-center rounded-lg bg-[#EFECFE] p-28">Project #1</div>
