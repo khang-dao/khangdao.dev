@@ -13,7 +13,6 @@ export default function IntroSection() {
             </div>
           </div>
 
-
           <p className="font-spartan text-2xl font-light">
             A versatile <span className="text-[#3892FF]">developer</span> with a passion for creation, automation, and
             cloud technologies ☁️
