@@ -17,7 +17,7 @@ export default function HomePage() {
         <ContactSection />
       </main>
 
-      <Footer />
+      <Footer className="-translate-y-5" />
     </>
   );
 }
