@@ -8,16 +8,14 @@
 
 @font-face {
   font-family: "League Spartan";
-  src: url("../../public/fonts/League_Spartan/static/LeagueSpartan-Light.ttf")
-    format("truetype");
+  src: url("../../public/fonts/League_Spartan/static/LeagueSpartan-Light.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "League Spartan";
-  src: url("../../public/fonts/League_Spartan/static/LeagueSpartan-Regular.ttf")
-    format("truetype");
+  src: url("../../public/fonts/League_Spartan/static/LeagueSpartan-Regular.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }

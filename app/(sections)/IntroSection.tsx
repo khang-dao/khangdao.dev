@@ -1,5 +1,6 @@
-import Image from "next/image";
+import PageTitle from "@components/PageTitle";
 import { FaAngleDown as DownArrowIcon } from "@icons/fa";
+import Image from "next/image";
 
 export default function IntroSection() {
   return (
@@ -7,15 +8,14 @@ export default function IntroSection() {
       <div className="flex w-full grow items-center justify-between">
         <div className="flex w-3/5 flex-col">
           <div className="relative">
-            <div className="absolute inset-0 left-2 right-44 top-4 z-0 rounded-md bg-[#cfe6ff] blur-[2px]"></div>
-            <span className="relative z-10 font-spartan text-5xl font-bold">
-              Hi, I&#39;m Khang
-            </span>
+            <div className="max-w-3xl">
+              <PageTitle className="text-5xl">Hi, I&#39;m Khang</PageTitle>
+            </div>
           </div>
 
           <p className="font-spartan text-2xl font-light">
-            A versatile <span className="text-[#3892FF]">developer</span> with a
-            passion for creation, automation, and cloud technologies ☁️
+            A versatile <span className="text-[#3892FF]">developer</span> with a passion for creation, automation, and
+            cloud technologies ☁️
           </p>
         </div>
         <div className="relative h-64 w-64">
@@ -23,7 +23,7 @@ export default function IntroSection() {
             src="images/blue_dragon.jpg"
             alt="Blue Dragon"
             fill
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: "cover" }}
             className="rounded-full"
             quality={100}
           />
