@@ -11,7 +11,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <Head>
         <title>Khang Dao</title>
       </Head>
-      <body className="before:content-[''] before:fixed before:top-0 before:left-0 before:w-full before:h-full before:border-[1.25rem] before:border-white before:box-border before:pointer-events-none before:z-[9999] after:content-[''] after:fixed after:top-0 after:left-0 after:w-full after:h-full after:border-[1.25rem] after:border-white after:box-border after:pointer-events-none after:z-[9999]">
+      <body className="before:pointer-events-none before:fixed before:left-0 before:top-0 before:z-[9999] before:box-border before:h-full before:w-full before:border-[1.25rem] before:border-white before:content-[''] after:pointer-events-none after:fixed after:left-0 after:top-0 after:z-[9999] after:box-border after:h-full after:w-full after:border-[1.25rem] after:border-white after:content-['']">
         {children}
       </body>
     </html>
