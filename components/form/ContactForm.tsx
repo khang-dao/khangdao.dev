@@ -1,7 +1,6 @@
 import FormItem from "@components/form/FormItem";
 
 interface ContactFormProps {
-  children?: React.ReactNode;
   className?: string;
   id?: string;
   name?: string;

@@ -5,7 +5,7 @@ export default function FormItem({
   type,
   className,
 }: {
-  children: React.ReactNode;
+  children: string;
   id: string;
   name: string;
   type: string;
@@ -17,7 +17,7 @@ export default function FormItem({
         <textarea
           id={id}
           name={name}
-          placeholder={children as string}
+          placeholder={children}
           className={`${className} w-full resize-none rounded-lg border-[3px] border-[#DAEBFF] p-2 font-spartan text-[#ACACAC]`}
           required
         />
@@ -26,7 +26,7 @@ export default function FormItem({
           type={type}
           id={id}
           name={name}
-          placeholder={children as string}
+          placeholder={children}
           className={`${className} w-full rounded-lg border-[3px] border-[#DAEBFF] p-2 font-spartan text-[#ACACAC]`}
           required
         />
