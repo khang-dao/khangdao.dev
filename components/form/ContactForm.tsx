@@ -16,7 +16,7 @@ export default function ContactForm({ className }: ContactFormProps): JSX.Elemen
       <FormItem className="grow" id="message" name="message" type="textarea">
         message
       </FormItem>
-      <button type="submit" className="rounded-md bg-[#469AFF] p-2 font-spartan text-white">
+      <button type="submit" className="rounded-md bg-blue-primary p-2 font-spartan text-white">
         SEND
       </button>
     </form>

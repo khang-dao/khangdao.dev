@@ -18,7 +18,7 @@ export default function FormItem({
           id={id}
           name={name}
           placeholder={children}
-          className={`${className} w-full resize-none rounded-lg border-[3px] border-[#DAEBFF] p-2 font-spartan text-[#ACACAC]`}
+          className={`w-full resize-none rounded-lg border-[3px] border-blue-dark-accent p-2 font-spartan text-black ${className}`}
           required
         />
       ) : (
@@ -27,7 +27,7 @@ export default function FormItem({
           id={id}
           name={name}
           placeholder={children}
-          className={`${className} w-full rounded-lg border-[3px] border-[#DAEBFF] p-2 font-spartan text-[#ACACAC]`}
+          className={`w-full rounded-lg border-[3px] border-blue-dark-accent p-2 font-spartan text-black ${className}`}
           required
         />
       )}
