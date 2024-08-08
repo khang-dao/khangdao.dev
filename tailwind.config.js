@@ -8,12 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'blue-primary': '#469AFF',
-        'blue-secondary': '#79B6FF',
-        'blue-dark': '#1E4B83',
-        'blue-dark-accent': '#cfe6ff',
-        'blue-light': '#F2F9FF',
-        'grey': '#ACACAC'
+        "blue-primary": "#469AFF",
+        "blue-secondary": "#79B6FF",
+        "blue-dark": "#1E4B83",
+        "blue-dark-accent": "#cfe6ff",
+        "blue-light": "#F2F9FF",
+        grey: "#ACACAC",
       },
       fontFamily: {
         lekton: ["Lekton", "sans-serif"],

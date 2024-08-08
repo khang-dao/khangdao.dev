@@ -13,7 +13,7 @@ export default function ContactSection() {
             <PageTitle>Let&#39;s Connect 📱</PageTitle>
           </div>
           <div className="flex">
-            <p className="text-justify font-spartan font-bold text-lg">
+            <p className="text-justify font-spartan text-lg font-bold">
               I&#39;m always open to connecting and discussing innovative solutions. Feel free to reach out for a
               virtual chat! (or let&#39;s grab coffee & bagels ☕️🥯 if you&#39;re in Melbourne and keen!)
             </p>
