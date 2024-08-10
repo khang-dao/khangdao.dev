@@ -24,9 +24,20 @@ module.exports = {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-5px)" },
         },
+        slideDown: {
+          "0%": {
+            transform: "translateY(-100%)",
+            opacity: 0,
+          },
+          "100%": {
+            transform: "translateY(0)",
+            opacity: 1,
+          },
+        },
       },
       animation: {
         bob: "bob 1s ease-in-out infinite",
+        slideDown: "slideDown 0.3s ease-out forwards",
       },
     },
   },
