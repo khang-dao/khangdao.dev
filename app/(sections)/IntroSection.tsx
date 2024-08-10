@@ -30,7 +30,7 @@ export default function IntroSection() {
         </div>
       </div>
 
-      <DownArrowIcon className="mb-8 animate-bob" color="#469AFF" size={25} />
+      <DownArrowIcon className="mb-14 animate-bob" color="#469AFF" size={25} />
     </section>
   );
 }
