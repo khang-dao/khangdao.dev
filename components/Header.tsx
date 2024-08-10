@@ -9,10 +9,11 @@ export default function Header() {
 
   function toggleMenu() {
     setIsMenuVisible((prev) => !prev);
+    console.log(isMenuVisible)
   }
 
   return (
-    <header className="fixed flex flex-1 items-start justify-between">
+    <header className="z-10 flex flex-1 items-start justify-between">
       {isMenuVisible && <NavMenu toggleMenu={toggleMenu} isMenuVisible={isMenuVisible}/>}
       <HamburgerMenuIcon
         className="fixed ml-10 mt-10 cursor-pointer"
