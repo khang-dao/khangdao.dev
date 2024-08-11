@@ -13,12 +13,12 @@ export default function IntroSection() {
             </div>
           </div>
 
-          <p className="font-spartan text-2xl font-light">
+          <p className="text-justify font-spartan text-2xl font-light">
             A versatile <span className="text-blue-secondary">developer</span> with a passion for creation, automation,
             and cloud technologies ☁️
           </p>
         </div>
-        <div className="relative h-64 w-64">
+        <div className="relative h-32 w-32 sm:h-48 sm:w-48 lg:h-64 lg:w-64">
           <Image
             src="images/blue_dragon.jpg"
             alt="Blue Dragon"
