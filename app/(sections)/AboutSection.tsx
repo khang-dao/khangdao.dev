@@ -22,7 +22,7 @@ export default function AboutSection() {
             suggestions!
           </p>
         </div>
-        <div className="flex justify-center rounded-lg bg-blue-secondary p-28">Insert Picture</div>
+        {/* <div className="flex justify-center rounded-lg bg-blue-secondary p-28">Insert Picture</div> */}
       </div>
     </section>
   );
