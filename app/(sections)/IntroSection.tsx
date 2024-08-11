@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function IntroSection() {
   return (
-    <section className="flex h-screen w-[65vw] flex-col items-center justify-between">
+    <section className="flex h-screen w-[65vw] flex-col items-center lg:justify-between">
       <div className="flex w-full grow flex-col items-center justify-center gap-28 lg:flex-row lg:justify-between">
         <div className="flex flex-col items-center lg:items-start lg:w-3/5">
           <div className="relative">
@@ -30,7 +30,7 @@ export default function IntroSection() {
         </div>
       </div>
 
-      <DownArrowIcon className="mb-14 animate-bob" color="#469AFF" size={25} />
+      <DownArrowIcon className="mb-28 lg:mb-14 animate-bob" color="#469AFF" size={25} />
     </section>
   );
 }
