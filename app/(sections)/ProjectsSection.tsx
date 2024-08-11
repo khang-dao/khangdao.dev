@@ -7,7 +7,7 @@ export default function ProjectsSection() {
 
       <p className="font bold font-spartan text-blue-primary">Hover to see details!</p>
 
-      <div className="grid grid-cols-5 gap-5">
+      <div className="flex flex-col gap-20 lg:grid lg:grid-cols-5 lg:gap-5">
         <div className="col-span-3 flex justify-center rounded-lg bg-[#EFECFE] p-28">Project #1</div>
         <div className="col-span-2 flex justify-center rounded-lg bg-[#FDF2F0] p-28">Project #2</div>
         <div className="col-span-2 flex justify-center rounded-lg bg-[#EAFCFA] p-28">Project #3</div>
