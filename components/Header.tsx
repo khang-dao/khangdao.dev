@@ -12,10 +12,10 @@ export default function Header() {
   }
 
   return (
-    <header className="fixed z-10 flex flex-1 items-start justify-between">
-      <NavMenu toggleMenu={toggleMenu} isMenuVisible={isMenuVisible}/>
+    <header className="pointer-events-none fixed z-10 flex flex-1 items-start justify-between">
+      <NavMenu toggleMenu={toggleMenu} isMenuVisible={isMenuVisible} />
       <HamburgerMenuIcon
-        className="fixed ml-10 mt-10 cursor-pointer"
+        className="pointer-events-auto fixed ml-10 mt-10 cursor-pointer"
         color={isMenuVisible ? "white" : "#469AFF"}
         size={25}
         onClick={toggleMenu}
