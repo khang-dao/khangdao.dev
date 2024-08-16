@@ -25,18 +25,18 @@ module.exports = {
           "50%": { transform: "translateY(-5px)" },
         },
         slideDown: {
-          '0%': { transform: 'translateY(-100%)'},
-          '100%': { transform: 'translateY(0)'},
+          "0%": { transform: "translateY(-100%)" },
+          "100%": { transform: "translateY(0)" },
         },
         slideUp: {
-          '0%': { transform: 'translateY(0)'},
-          '100%': { transform: 'translateY(-100%)' },
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-100%)" },
         },
       },
       animation: {
         bob: "bob 1s ease-in-out infinite",
         "slide-down": "slideDown 0.3s ease-out forwards",
-        "slide-up": 'slideUp 0.5s ease-in forwards',
+        "slide-up": "slideUp 0.5s ease-in forwards",
       },
     },
   },

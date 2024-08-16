@@ -6,7 +6,7 @@ import { TiDocumentText as DocumentIcon } from "@icons/ti";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="my-16 flex w-[65vw] gap-10 lg:gap-28 flex-col lg:flex-row">
+    <section id="contact" className="my-16 flex w-[65vw] flex-col gap-10 lg:flex-row lg:gap-28">
       <div className="flex flex-1 basis-2/5 flex-col gap-10">
         <div className="max-w-3xl">
           <PageTitle>Let&#39;s Connect 📱</PageTitle>
@@ -17,7 +17,7 @@ export default function ContactSection() {
             chat! (or let&#39;s grab coffee & bagels ☕️🥯 if you&#39;re in Melbourne and keen!)
           </p>
         </div>
-        <div className="flex justify-around lg:justify-center gap-20">
+        <div className="flex justify-around gap-20 lg:justify-center">
           <LinkedinIcon size={30} color="#469AFF" />
           <DocumentIcon size={30} color="#469AFF" />
           <GithubIcon size={30} color="#469AFF" />
