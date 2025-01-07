@@ -25,7 +25,7 @@ export default function ContactForm({ className }: ContactFormProps): JSX.Elemen
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      const result = await emailjs.send(
+      await emailjs.send(
         "service_t369gbv", // Replace with your EmailJS service ID
         "template_vqpoxkw", // Replace with your EmailJS template ID
         formData,
