@@ -18,9 +18,33 @@ export default function ContactSection() {
           </p>
         </div>
         <div className="flex justify-around gap-20 lg:justify-center">
-          <LinkedinIcon size={30} color="#469AFF" />
-          <DocumentIcon size={30} color="#469AFF" />
-          <GithubIcon size={30} color="#469AFF" />
+          {/* LinkedIn Link */}
+          <a
+            href="https://www.linkedin.com/in/daokhang/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-opacity duration-200 hover:opacity-75"
+          >
+            <LinkedinIcon size={30} color="#469AFF" />
+          </a>
+
+          <a
+            href="pdfs/resume-2024.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-opacity duration-200 hover:opacity-75"
+          >
+            <DocumentIcon size={30} color="#469AFF" />
+          </a>
+
+          <a
+            href="https://github.com/khang-dao"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-opacity duration-200 hover:opacity-75"
+          >
+            <GithubIcon size={30} color="#469AFF" />
+          </a>
         </div>
       </div>
       <ContactForm className="flex-1 basis-3/5" />

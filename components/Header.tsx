@@ -12,7 +12,7 @@ export default function Header() {
   }
 
   return (
-    <header className="pointer-events-none fixed z-10 flex flex-1 items-start justify-between">
+    <header className={`${isMenuVisible ? "" : "pointer-events-none"} fixed z-10 flex flex-1 items-start justify-between`}>
       <NavMenu toggleMenu={toggleMenu} isMenuVisible={isMenuVisible} />
       <HamburgerMenuIcon
         className="pointer-events-auto fixed ml-10 mt-10 cursor-pointer"
