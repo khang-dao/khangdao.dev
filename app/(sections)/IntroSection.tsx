@@ -20,7 +20,7 @@ export default function IntroSection() {
         </div>
         <div className="relative h-48 w-48 md:h-80 md:w-80 lg:h-64 lg:w-64">
           <Image
-            src="images/blue_dragon.jpg"
+            src="images/blue-dragon.jpg"
             alt="Blue Dragon"
             fill
             style={{ objectFit: "cover" }}
